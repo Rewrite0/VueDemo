@@ -1,0 +1,40 @@
+/* 初始化 */
+*{
+	margin: 0;
+	padding: 0;
+}
+/*基本样式*/
+#main{
+	margin: 100px 0;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.tags, .title, .bar{
+	display: inline-flex;
+	flex-direction: row;
+}
+.tags{
+	flex-grow: 1;
+}
+.title{
+	flex-grow: 4;
+}
+.bar{
+	flex-grow: 5;
+}
+.tags>div,
+.title>div,
+.bar>div{
+	flex-grow: 1;
+}
+span{
+	text-align: center;
+	display: block;
+	width: 100%;
+	line-height: 40px;
+}
+input{
+	width: 100px;
+}
